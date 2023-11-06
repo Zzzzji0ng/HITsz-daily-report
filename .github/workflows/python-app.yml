@@ -3,7 +3,7 @@ name: Auto Report Daily
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 11 * * *"
+    - cron: "0 12 * * *"
 
 jobs:
   Report:
@@ -24,4 +24,4 @@ jobs:
       - name: Run daily report script
         shell: bash
         run: |
-          python report.py "$USERNAME" "$PASSWORD" -k="$API_KEY" -p
+          python report.py
