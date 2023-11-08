@@ -153,7 +153,7 @@ def sendRequest():
       
       
       # 发送请求
-      response = requests.post(url, headers=headers, data=data, cookie=cookies)     
+      response = requests.post(url, headers=headers, data=data, cookies=cookies)     
       print(response)
       
       # 睡眠1s
