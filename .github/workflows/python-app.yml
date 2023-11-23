@@ -1,9 +1,9 @@
 name: Auto Report Daily
 
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "0 22 * * *"
+# on:
+#  workflow_dispatch:
+#  schedule:
+#    - cron: "0 22 * * *"
 
 jobs:
   Report:
